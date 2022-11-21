@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            /*
+            Medidas absolutas 
+            cm, mm, in(pol), PX, pt, pc
+
+            Medidas relativas
+            EM, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            medidas recomendada pela W³C {px, em}
+            */
+            font-size: 1.2em;
+
+            /* lighter, normal, bold, bolder*/
+
+        }
+
+        h1  {
+            /*
+            shothand font
+            -font-style -> font-weight -> font-size -> font-family
+            (tem que seguir essa seguencia)
+
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sunt est in debitis molestiae perspiciatis? Qui nihil, earum architecto reiciendis excepturi odit, provident vitae libero cumque velit porro totam harum!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius esse debitis est totam temporibus consequuntur exercitationem dolore, aspernatur, animi optio beatae rem facilis eligendi cumque ullam! Deserunt repellendus porro culpa?</p>
+    <h2>Subtítulo de exercício</h2>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A corporis repellendus, ipsum quia fugiat eum cumque quisquam doloribus quo ipsam fugit, vitae odit expedita sint minus quasi, magnam placeat. Repellendus.
+</body>
+</html>
